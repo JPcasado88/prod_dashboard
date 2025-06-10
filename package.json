@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite preview",
+    "start": "serve -s dist -l ${PORT:-3000}",
     "lint": "eslint .",
     "preview": "vite preview",
     "tailwind:init": "tailwindcss init -p"
@@ -17,6 +17,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "recharts": "^2.15.3",
+    "serve": "^14.2.4",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {

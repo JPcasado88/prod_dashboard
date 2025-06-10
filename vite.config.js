@@ -11,7 +11,11 @@ export default defineConfig({
   preview: {
     host: true,
     port: process.env.PORT || 3000,
-    allowedHosts: ['all']
+    allowedHosts: [
+      'localhost',
+      '.railway.app',
+      'proddashboard-production.up.railway.app'
+    ]
   },
   build: {
     outDir: 'dist',

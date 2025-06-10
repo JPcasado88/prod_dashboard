@@ -1,11 +1,13 @@
 {
   "name": "production-dashboard-refactored",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A production dashboard for tracking manufacturing operations",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "vite preview",
     "lint": "eslint .",
     "preview": "vite preview",
     "tailwind:init": "tailwindcss init -p"

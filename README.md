@@ -90,7 +90,7 @@ production-dashboard-refactored/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/production-dashboard-refactored.git
+git clone https://github.com/JPcasado88/production-dashboard-refactored.git
 cd production-dashboard-refactored
 
 # Install dependencies

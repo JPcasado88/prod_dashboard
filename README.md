@@ -90,8 +90,8 @@ production-dashboard-refactored/
 
 ```bash
 # Clone the repository
-git clone https://github.com/JPcasado88/production-dashboard-refactored.git
-cd production-dashboard-refactored
+git clone https://github.com/JPcasado88/prod_dashboard.git
+cd prod_dashboard
 
 # Install dependencies
 yarn install
